@@ -1,0 +1,4 @@
+com\stock\dbservice\resource\DbServiceResource.class
+com\stock\dbservice\repository\DbRepository.class
+com\stock\dbservice\DbServiceApp.class
+com\stock\dbservice\model\Qoute.class
