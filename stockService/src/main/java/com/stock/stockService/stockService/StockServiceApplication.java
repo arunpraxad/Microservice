@@ -1,4 +1,4 @@
-package com.stock.db.stockdb;
+package com.stock.stockService.stockService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,9 +6,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @EnableEurekaClient
 @SpringBootApplication
-class StockdbApplication {
+public class StockServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StockdbApplication.class, args);
+		SpringApplication.run(StockServiceApplication.class, args);
 	}
 }

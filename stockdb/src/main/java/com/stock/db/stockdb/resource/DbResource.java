@@ -35,8 +35,6 @@ public class DbResource {
                 .map(qoute -> new Qoutes(qoutes.getUserName(), (List<Qoute>) qoute))
                 .forEach(qoute -> dbRepository.save(qoute));
 
-
-
         return dbRepository.findByUserName(qoutes.getUserName())
                 .stream()
                 .map(Qoute::getQoute)
